@@ -1,0 +1,11 @@
+/gv7_a_off/gv7_a_off_node:
+  ros__parameters: 
+    port : "/dev/ttyACM0"
+    # (GQ7/CV7 full support, GX5-45 limited support) Adaptive filter settings
+#      Adaptive level: 0 - off, 1 - Conservative, 2 = Moderate (default), 3 = agressive
+#      Time limit: Max duration of measurement rejection prior to recovery, in milliseconds - default = 15000 
+    filter_adaptive_level         : 0
+    filter_adaptive_time_limit_ms : 15000
+    # filter_enable_magnetometer_aiding     : True
+    filter_declination_source : 1
+    filter_pps_source: 0
