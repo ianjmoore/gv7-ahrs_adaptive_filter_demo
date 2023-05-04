@@ -1,4 +1,4 @@
-/gv7_a_on/gv7_a_on_node:
+/gv7_on/gv7_on:
   ros__parameters: 
     port : "/dev/ttyACM1"
     # (GQ7/CV7 full support, GX5-45 limited support) Adaptive filter settings
@@ -9,3 +9,4 @@
     # filter_enable_magnetometer_aiding     : True
     filter_declination_source : 1
     filter_pps_source: 0
+    use_enu_frame: True
